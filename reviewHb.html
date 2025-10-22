@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
-
 <body style="background-color: #3d3f32;">
-    <div class="flex justify-center">
-        <div class="grid grid-flow-col grid-rows-4 gap-4">
-            <header class="pt-2">
+    <div class="flex flex-col">
+        <header class="flex w-full mt-2">
+            <div style="width: 35%;"></div>
+            <div class="flex flex-col items-center" style="width: 30%;">
                 <img src="public/img/Haibane_Renmei_Logo.png" style="width: auto; height: auto;" alt="haibane banner">
                 <nav class="flex flex-col items-center">
                     <ul class="flex">
@@ -19,38 +18,40 @@
                         <li class="text-white mr-2 ml-2">-</li>
                         <li><a href="member.html" class="text-white underline">Thành viên</a></li>
                     </ul>
-                    <div class="pt-2" style="width: 20%;">
+                    <div class="pt-2" style="width: 50%;">
                         <hr>
                     </div>
                 </nav>
-            </header>
-            <!-- ... -->
-            <main class="text-white text-sm">
-                <p class="text-lg font-medium mb-3">Ngày 20 tháng 10 năm 2025</p>
-                <p>Một cô gái rơi từ trời cao.</p>
-                <p>Một con quạ gắng đỡ lấy cô ấy nhưng không thể và bị thổi bay đi.</p>
-                <p></p>
-            </main>
-            <footer class="flex flex-col items-center">
-                <p class="text-white text-xs">Original design - <a class="underline"
-                        href="https://cff.ssw.net/index.htm">Wraith's site</a></p>
-                <P class="text-white text-xs">Images Copyright Pioneer and/or yoshitoshi ABe unless otherwise noted</P>
-            </footer>
-            <div class="row-span-2 grid grid-rows-subgrid gap-4">
-                <div class="row-start-2 text-white">
-                    <ul>
-                        <li><a class="underline" href="aboutHb.html">About</a></li>
-                        <li><a class="underline" href="reviewHb.html">Review tác phẩm</a></li>
-                        <li><a class="underline" href="#">Nhân vật</a></li>
-                    </ul>
-                </div>
             </div>
+            <div style="width: 35%;"></div>
+        </header>
+        <main class="flex w-full mb-2">
+            <div style="width: 35%;"></div>
+            <div class=" flex flex-col text-sm text-white" style="width: 30%;">
+                <p class="text-lg font-medium mb-2">Ngày 20 tháng 10 năm 2025</p>
+                <p>Một cô gái rơi từ trời cao. <br>
+                   Một con quạ gắng đỡ lấy cô ấy nhưng không thể. <br>
+                   Ngay sau đó, từ chiếc kén khổng lồ, một Haibane mới đã chào đời. Vây quanh cô là những cô gái với vầng hào quang trên đầu và đôi cánh xám sau lưng.
+                   Họ trao cho cô hào quang của chính mình, đặt tên cô là Rakka - nghĩa là rơi xuống, dựa theo giấc mơ cô kể lại. <br>
+                   Reki, một người trong nhóm các Haibane, đã tận tình chăm sóc Rakka trong đêm đó, khi đôi cánh màu than bắt đầu thành hình.</p>
+                <p>Và thế là, Haibane Renmei, tác phẩm của yoshitoshi ABe đã ra đời. Bộ anime gồm 13 tập được dựa trên tựa truyện doujinshi Old Home no Haibane-tachi của ông, đồng thời yoshitoshi ABe cũng góp vai trò viết kịch bản. </p>
 
-            <!-- ... -->
-
-        </div>
+                </p>
+            </div>
+            <div class="text-white" style="width: 35%;">
+                <ul>
+                    <li><a class="underline" href="aboutHb.html">About</a></li>
+                    <li><a class="underline" href="reviewHb.html">Review tác phẩm</a></li>
+                    <li><a class="underline" href="#">Nhân vật</a></li>
+                </ul>
+            </div>
+        </main>
+        <footer class="flex flex-col items-center w-full">
+            <p class="text-white text-xs">Original design - <a class="underline"
+                    href="https://cff.ssw.net/index.htm">Wraith's site</a></p>
+            <P class="text-white text-xs">Images Copyright Pioneer and/or yoshitoshi ABe unless otherwise noted</P>
+        </footer>
     </div>
-
 </body>
-
 </html>
+

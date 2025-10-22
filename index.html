@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
 </head>
-
 <body style="background-color: #3d3f32;">
-    <div class="flex justify-center">
-        <div class="grid grid-flow-col grid-rows-4 gap-4">
-            <header class="pt-2">
+    <div class="flex flex-col">
+        <header class="flex w-full mt-2">
+            <div style="width: 35%;"></div>
+            <div class="flex flex-col items-center" style="width: 30%;">
                 <img src="public/img/Haibane_Renmei_Logo.png" style="width: auto; height: auto;" alt="haibane banner">
                 <nav class="flex flex-col items-center">
                     <ul class="flex">
@@ -19,37 +18,33 @@
                         <li class="text-white mr-2 ml-2">-</li>
                         <li><a href="member.html" class="text-white underline">Thành viên</a></li>
                     </ul>
-                    <div class="pt-2" style="width: 20%;">
+                    <div class="pt-2" style="width: 50%;">
                         <hr>
                     </div>
                 </nav>
-            </header>
-            <!-- ... -->
-            <main class="text-white text-sm">
-                <p class="text-lg font-medium mb-3">Ngày 20 tháng 10 năm 2025</p>
+            </div>
+            <div style="width: 35%;"></div>
+        </header>
+        <main class="flex w-full mb-2">
+            <div style="width: 35%;"></div>
+            <div class=" flex flex-col text-sm text-white" style="width: 30%;">
+                <p class="text-lg font-medium mb-2">Ngày 20 tháng 10 năm 2025</p>
                 <p>Nhóm môn Phát triển ứng dụng web - 23KTPM1</p>
                 <p>Bao gồm 1 thành viên Phan Hoàng Duy - 18127093</p>
-            </main>
-            <footer class="flex flex-col items-center">
-                <p class="text-white text-xs">Original design - <a class="underline"
-                        href="https://cff.ssw.net/index.htm">Wraith's site</a></p>
-                <P class="text-white text-xs">Images Copyright Pioneer and/or yoshitoshi ABe unless otherwise noted</P>
-            </footer>
-            <div class="row-span-2 grid grid-rows-subgrid gap-4">
-                <div class="row-start-2 text-white">
-                    <ul>
-                        <li><a class="underline" href="aboutHb.html">About</a></li>
-                        <li><a class="underline" href="reviewHb.html">Review tác phẩm</a></li>
-                        <li><a class="underline" href="#">Nhân vật</a></li>
-                    </ul>
-                </div>
             </div>
-
-            <!-- ... -->
-
-        </div>
+            <div class="text-white" style="width: 35%;">
+                <ul>
+                    <li><a class="underline" href="aboutHb.html">About</a></li>
+                    <li><a class="underline" href="characters.html">Nhân vật</a></li>
+                </ul>
+            </div>
+        </main>
+        <footer class="flex flex-col items-center w-full">
+            <p class="text-white text-xs">Original design - <a class="underline"
+                    href="https://cff.ssw.net/index.htm">Wraith's site</a></p>
+            <P class="text-white text-xs">Images Copyright Pioneer and/or yoshitoshi ABe unless otherwise noted</P>
+        </footer>
     </div>
-
 </body>
 
 </html>
